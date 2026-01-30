@@ -10,6 +10,8 @@ collections:
     label: "Products"
     folder: "products"
     create: true
+    format: "json"
+    extension: "json"
     fields:
       - { label: "Name", name: "name", widget: "string" }
       - { label: "Price (SGD)", name: "price", widget: "string" }
